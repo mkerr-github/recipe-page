@@ -22,7 +22,7 @@ To build out this recipe page with responsive desktop, tablet and mobile layouts
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-recipe-page-1np81-eAPZ](https://www.frontendmentor.io/solutions/responsive-recipe-page-1np81-eAPZ)
 - Live Site URL: [https://mkerr-github.github.io/recipe-page/](https://mkerr-github.github.io/recipe-page/)
 
 ## My process
