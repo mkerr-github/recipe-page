@@ -239,6 +239,7 @@ footer {
     main {
         background-color: var(--white);
         max-width: 736px;
+        margin: 128px 48px;
     }
 
     article {
