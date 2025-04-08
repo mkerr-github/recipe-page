@@ -170,7 +170,7 @@ th,
 td {
     border: none;
     /* Remove all borders by default */
-    padding-bottom: 8px;
+    padding: 12px;
     /* Optional, for spacing */
 }
 
@@ -231,12 +231,6 @@ footer {
     .nutrition-para {
         padding-bottom: 24px;
     }
-
-    th,
-    td {
-        padding-bottom: 12px;
-    }
-
 }
 
 
@@ -260,10 +254,5 @@ footer {
 
     .nutrition-para {
         padding-bottom: 24px;
-    }
-
-    th,
-    td {
-        padding-bottom: 12px;
     }
 }
