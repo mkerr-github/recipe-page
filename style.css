@@ -82,6 +82,7 @@ h1 {
     background-color: var(--rose-50);
     padding: 1.5rem 1.5rem 0.75rem;
     padding-bottom: 1rem;
+    border-radius: 0.75rem;
 }
 
 .prep-time>h2 {
