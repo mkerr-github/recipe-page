@@ -104,11 +104,12 @@ h1 {
 
 .prep-time-ul {
     padding-left: 24px;
-    padding-right: 16px
+    padding-right: 16px;
 }
 
 .prep-time-ul>li {
     padding-bottom: 8px;
+    text-indent: 1rem;
 }
 
 
@@ -124,13 +125,13 @@ h2 {
 }
 
 .ingredients-ul {
-    padding-left: 32px;
+    padding-left: 36px;
     padding-bottom: 24px;
 }
 
 .ingredients-ul>li {
     padding-bottom: 8px;
-
+    text-indent: 1rem;
 }
 
 .instructions-ol {
