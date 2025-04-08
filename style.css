@@ -155,7 +155,7 @@ hr {
 }
 
 .nutrition-para {
-    padding-bottom: 16px;
+    padding-bottom: 24px;
     line-height: 150%;
 }
 
@@ -220,7 +220,7 @@ footer {
 
     article {
         max-width: 616px;
-        padding: 40px;
+        padding: 40px 40px 32px;
         border-radius: 24px;
     }
 
@@ -250,7 +250,7 @@ footer {
 
     article {
         max-width: 736px;
-        padding: 40px;
+        padding: 40px 40px 32px;
     }
 
     h1 {
