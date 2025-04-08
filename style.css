@@ -11,13 +11,6 @@
     --rose-50: hsl(330, 100%, 98%);
 }
 
-/********************** Test & Debug *************************/
-
-/* * {
-    outline: 1px solid green;
-    background-color: hsl(155, 68%, 71%);
-} */
-
 /********************* Standard Resets ***********************/
 
 *,
@@ -56,13 +49,13 @@ body {
 
 main {
     background-color: var(--white);
-    max-width: 375px;
+    max-width: 23.4375rem;
 }
 
 article {
     background-color: var(--white);
-    max-width: 375px;
-    padding: 40px 32px;
+    max-width: 23.4375rem;
+    padding: 2.5rem 2rem;
     font-family: outfit;
     font-weight: normal;
     line-height: 150%;
@@ -76,19 +69,19 @@ h1 {
     font-weight: 500;
     line-height: 100%;
     letter-spacing: 0;
-    font-size: 36px;
-    padding-bottom: 24px;
+    font-size: 2.25rem;
+    padding-bottom: 1.5rem;
 }
 
 .intro {
     line-height: 150%;
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
 }
 
 .prep-time {
     background-color: var(--rose-50);
-    padding: 24px 24px 12px;
-    padding-bottom: 16px;
+    padding: 1.5rem 1.5rem 0.75rem;
+    padding-bottom: 1rem;
 }
 
 .prep-time>h2 {
@@ -97,55 +90,55 @@ h1 {
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 0;
-    font-size: 20px;
-    padding-bottom: 16px;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
     padding-top: 0;
 }
 
 .prep-time-ul {
-    padding-left: 24px;
-    padding-right: 16px;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
 }
 
 .prep-time-ul>li {
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
     text-indent: 1rem;
 }
 
 
 h2 {
-    padding-top: 32px;
-    padding-bottom: 24px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
     color: var(--brown-800);
     font-family: "Young Serif", serif;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .ingredients-ul {
-    padding-left: 40px;
-    padding-bottom: 24px;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .ingredients-ul>li {
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
     text-indent: 1rem;
 }
 
 .instructions-ol {
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
 }
 
 .instructions-ol>li {
     line-height: 150%;
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
 }
 
 ol {
-    padding-left: 24px;
-    padding-right: 16px;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
 }
 
 hr {
@@ -156,7 +149,7 @@ hr {
 }
 
 .nutrition-para {
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
     line-height: 150%;
 }
 
@@ -171,8 +164,7 @@ th,
 td {
     border: none;
     /* Remove all borders by default */
-    padding: 12px;
-    /* Optional, for spacing */
+    padding: 0.75rem 2rem;
 }
 
 tr:not(:last-child) {
@@ -191,14 +183,13 @@ footer {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
 
 /************************ Responsive *************************/
 
@@ -207,53 +198,52 @@ footer {
 
     main {
         background-color: var(--white);
-        max-width: 616px;
-        border-radius: 24px;
+        max-width: 38.5rem;
+        border-radius: 1.5rem;
     }
 
     .main-image-wrapper {
-        border-radius: 12px;
-        margin-top: 40px;
-        margin-left: 40px;
-        margin-right: 40px;
+        border-radius: 0.75rem;
+        margin-top: 2.5rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
         overflow: hidden;
     }
 
     article {
-        max-width: 616px;
-        padding: 40px 40px 32px;
-        border-radius: 24px;
+        max-width: 38.5rem;
+        padding: 2.5rem 2.5rem 2rem;
+        border-radius: 1.5rem;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .nutrition-para {
-        padding-bottom: 12px;
+        padding-bottom: 0.75rem;
     }
 }
-
 
 /* Desktop (min-width: 992px) */
 @media (min-width: 992px) {
 
     main {
         background-color: var(--white);
-        max-width: 736px;
-        margin: 128px 48px;
+        max-width: 46rem;
+        margin: 8rem 3rem;
     }
 
     article {
         max-width: 736px;
-        padding: 40px 40px 32px;
+        padding: 2.5rem 2.5rem 2rem;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .nutrition-para {
-        padding-bottom: 12px;
+        padding-bottom: 0.75rem;
     }
 }
