@@ -130,6 +130,7 @@ h2 {
 
 .ingredients-ul>li {
     padding-bottom: 8px;
+
 }
 
 .instructions-ol {
@@ -137,7 +138,7 @@ h2 {
 }
 
 .instructions-ol>li {
-    line-height: 140%;
+    line-height: 150%;
     padding-bottom: 8px;
 }
 
